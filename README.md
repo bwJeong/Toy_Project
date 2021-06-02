@@ -9,3 +9,11 @@
   - [Lorem Picsum](https://picsum.photos/)을 이용한 랜덤 이미지 요청
   - KingFisher를 이용한 웹 이미지 출력
   - Tap Gesture를 이용한 다음 랜덤 이미지 요청
+
+
+## #2. MetalDetector
+
+- 한줄소개: 금속 탐지기 앱
+- 사용기술: UIKit, CoreMotion, CocoaPods, RxSwift
+- 주요내용:
+  - 
