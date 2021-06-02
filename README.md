@@ -16,4 +16,3 @@
 - 한줄소개: 금속 탐지기 앱
 - 사용기술: UIKit, CoreMotion, CocoaPods, RxSwift
 - 주요내용:
-  - 
