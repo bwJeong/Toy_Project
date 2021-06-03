@@ -18,3 +18,5 @@
 - 한줄소개: 금속 탐지기 앱
 - 사용기술: UIKit, CoreMotion, CocoaPods, RxSwift
 - 주요내용:
+  - CoreMotion을 이용한 기기 내 Magnetometer 정보 활용
+  - RxRelay를 이용한 비동기 UI 업데이트
