@@ -19,7 +19,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         magnetometerManager.totalValue
-            .observe(on: MainScheduler.instance)
             .bind { [weak self] totalValue in
                 self?.view.backgroundColor = UIColor(
                     red: totalValue > 500 ? 1.0 : CGFloat(totalValue / 500),
