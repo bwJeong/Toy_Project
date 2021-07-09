@@ -1,4 +1,4 @@
-# UIKit_Study
+# Toy_Project
 
 ## #1. RandomImage
 <p align="center"><img src="https://user-images.githubusercontent.com/54430715/120281403-de754180-c2f3-11eb-980b-8646a87d991e.gif" width="20%" height="20%"></p>
