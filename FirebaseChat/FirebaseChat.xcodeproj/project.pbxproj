@@ -11,6 +11,9 @@
 		9E77FA59274506B90060F267 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E77FA58274506B90060F267 /* LoginView.swift */; };
 		9E77FA5B274506BA0060F267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E77FA5A274506BA0060F267 /* Assets.xcassets */; };
 		9E77FA5E274506BA0060F267 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E77FA5D274506BA0060F267 /* Preview Assets.xcassets */; };
+		9E77FA662745117C0060F267 /* ChattingRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E77FA652745117C0060F267 /* ChattingRoomView.swift */; };
+		9E77FA69274529E40060F267 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E77FA68274529E40060F267 /* ChatView.swift */; };
+		9E77FA6C274530AD0060F267 /* ChatInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E77FA6B274530AD0060F267 /* ChatInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		9E77FA5A274506BA0060F267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E77FA5D274506BA0060F267 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9E77FA5F274506BA0060F267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E77FA652745117C0060F267 /* ChattingRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingRoomView.swift; sourceTree = "<group>"; };
+		9E77FA68274529E40060F267 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		9E77FA6B274530AD0060F267 /* ChatInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +58,9 @@
 		9E77FA55274506B90060F267 /* FirebaseChat */ = {
 			isa = PBXGroup;
 			children = (
+				9E77FA6A2745307B0060F267 /* Models */,
+				9E77FA67274511D90060F267 /* Views */,
 				9E77FA56274506B90060F267 /* FirebaseChatApp.swift */,
-				9E77FA58274506B90060F267 /* LoginView.swift */,
 				9E77FA5A274506BA0060F267 /* Assets.xcassets */,
 				9E77FA5F274506BA0060F267 /* Info.plist */,
 				9E77FA5C274506BA0060F267 /* Preview Content */,
@@ -67,6 +74,24 @@
 				9E77FA5D274506BA0060F267 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E77FA67274511D90060F267 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E77FA58274506B90060F267 /* LoginView.swift */,
+				9E77FA652745117C0060F267 /* ChattingRoomView.swift */,
+				9E77FA68274529E40060F267 /* ChatView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9E77FA6A2745307B0060F267 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9E77FA6B274530AD0060F267 /* ChatInfo.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E77FA69274529E40060F267 /* ChatView.swift in Sources */,
 				9E77FA59274506B90060F267 /* LoginView.swift in Sources */,
+				9E77FA662745117C0060F267 /* ChattingRoomView.swift in Sources */,
+				9E77FA6C274530AD0060F267 /* ChatInfo.swift in Sources */,
 				9E77FA57274506B90060F267 /* FirebaseChatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
